@@ -33,8 +33,8 @@ function handleText(textNode)
 
 	v = v.replace(/\bBitCoin\b/g, "ButtCoin");
 	v = v.replace(/\bBitcoin\b/g, "Buttcoin");
-	v = v.replace(/\bbitcoin\b/g, "bitcoin");
-	v = v.replace(/\bBITCOIN\b/g, "bitcoin");
+	v = v.replace(/\bbitcoin\b/g, "buttcoin");
+	v = v.replace(/\bBITCOIN\b/g, "BUTTCOIN");
 	v = v.replace(/\bBTC\b/g, "ButtTC");
 	
 	textNode.nodeValue = v;
